@@ -1,0 +1,8 @@
+version: 3
+endpoint: https://rapid-man-22.hasura.app
+metadata_directory: metadata
+migrations_directory: migrations
+seeds_directory: seeds
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: https://rapid-man-22.hasura.app
